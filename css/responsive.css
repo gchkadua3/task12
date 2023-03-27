@@ -1,0 +1,73 @@
+@media only screen and (max-width: 500px) {
+    .smth {
+        width: inherit;
+    }
+
+    .firsttext:hover .dropdwn {
+        display: flex !important;
+        flex-direction: column;
+        gap: 10px 0x !important;
+        
+    }
+
+    .firsttext:hover .bi-list {
+        display: none !important;
+    }
+
+    
+
+
+    .dropdwn p:hover{
+        color: white;
+    }
+    
+    .responsiverow {
+        justify-content: space-between !important;
+        padding: 20px 0px;
+        z-index: 1;
+    }
+
+    .bgimg {
+        height: 50vh;
+        width: 500px;
+        z-index: 0;
+        opacity: 1;
+    }
+
+    .dropdwn{
+        background-color: rgba(6, 6, 92, 0.918);
+        padding: 5px 5px;
+        right: 30%;
+        top: -30px;
+    }
+
+    .firsttext h1 {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 29px;
+        color: #FFFFFF;
+    }
+
+    .dropdwn a {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 177.1%;
+        color: white !important;
+        padding: 9px !important;
+       
+    }
+
+    .bi-list {
+        font-size: 30px;
+        color: white;
+        border: 1px solid white;
+        border-radius: 5px;
+        padding: 5px;
+        margin-top: 50px;
+    }
+
+   
+}
+
